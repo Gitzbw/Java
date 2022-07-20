@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!-- 约束,声明-->
+<html lang="zh_CN"> <!-- lang="en" 代表语言是英文 可以改成zh_CN 中文 -->
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+    </style>
+    <link rel="stylesheet" type="text/css" href="./c.css" />
+    <script type="text/javascript" src="j.js">
+    </script>
+</head>
+<body>
+<form action = "http://localhost:8080" method="get">
+    <h1 align="center" >用户注册</h1>
+    <table align = "center">
+        <tr>
+            <td>用户姓名:</td>
+            <td> <input name = "用户姓名" type = "text"/></td>
+        </tr>
+        <tr>
+            <td>用户密码:</td>
+            <td><input name = "用户密码" type = "password"/></td>
+        </tr>
+        <tr>
+            <td>国籍:</td>
+            <td>
+                <select name="国家">
+                    <option selected = "selected" value="cn">中国</option>
+                    <option value="uk">英国</option>
+                    <option value="usa" >美国</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="reset"/></td>
+            <td><input type="submit"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
