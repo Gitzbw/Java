@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="demo_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/demo/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo/web/WEB-INF/lib/druid-1.1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
